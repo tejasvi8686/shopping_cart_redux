@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <div class="">
-      <nav className="flex justify-around items-center h-20 fixed top-0 bg-slate-800 w-full z-50">
+      <nav className="font-medium text-white flex justify-between mx-auto items-center h-20 max-w-6xl px-8">
         <NavLink to="/">
           <div className="ml-5">
             <img src={Logo} className="h-14" alt="" />
