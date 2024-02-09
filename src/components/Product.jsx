@@ -17,7 +17,7 @@ const Product = ({ post }) => {
 
   return (
   
-    <div className="flex flex-col gap-y-3 p-3 justify-between items-center shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] transition-all duration-300 ease-in hover:scale-110 rounded-xl hover:shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)]">
+    <div className=" flex flex-col gap-y-3 p-3 justify-between items-center shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] transition-all duration-300 ease-in hover:scale-110 rounded-xl hover:shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)]">
 
       <div className="text-gray-700 font-semibold text-lg" 
       >{post.title.substring(0,14) + "..."}</div>

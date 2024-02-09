@@ -7,8 +7,8 @@ const Navbar = () => {
   const { cart } = useSelector((state) => state);
 
   return (
-    <div>
-      <nav className="flex justify-between items-center h-20 max-w-6xl mx-auto">
+    <div class="">
+      <nav className="flex justify-around items-center h-20 fixed top-0 bg-slate-800 w-full z-50">
         <NavLink to="/">
           <div className="ml-5">
             <img src={Logo} className="h-14" alt="" />
